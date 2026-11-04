@@ -1,5 +1,9 @@
 # Interview Analyzer Skill
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-2f855a)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-3776AB)](#)
+[![skill](https://img.shields.io/badge/skill-ready-0f766e)](SKILL.md)
+
 一个**不依赖外部模型 API、不需要 API Key**的求职分析 skill。
 
 宿主 agent 用自己的模型完成 JD 拆解、简历匹配和打招呼话术；这个仓库提供：
