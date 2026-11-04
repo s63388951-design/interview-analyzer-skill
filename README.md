@@ -69,6 +69,10 @@ python scripts/validate.py --mode greeting --input out.json --resume resume.md
 
 校验脚本只使用 Python 标准库，不联网、不读 Key。
 
+## Wiki 镜像
+
+完整 Wiki 内容在 `docs/wiki/`。GitHub Wiki 首次需要在网页点一次「Create the first page」，之后可直接同步。
+
 ## 目录
 
 ```text
