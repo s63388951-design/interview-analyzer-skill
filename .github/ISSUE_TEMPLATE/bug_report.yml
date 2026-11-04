@@ -1,0 +1,22 @@
+name: Bug report
+description: 报告校验脚本或 prompt 的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 实际输出 + 期望输出
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: 最小复现输入
+      description: 请先删除简历姓名、手机号、邮箱、API Key
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      description: 宿主 agent / Python 版本
